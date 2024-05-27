@@ -1,0 +1,149 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #88c88a;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  height: auto;
+}
+
+.survey-form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+  box-sizing: border-box;
+}
+
+.survey-form h1 {
+  margin-bottom: 10px;
+  text-align: justify;
+  font-size: 1.5em;
+  word-wrap: break-word;
+  height: auto;
+  color: #448537;
+}
+
+.survey-form .description {
+  text-align: justify;
+  margin-bottom: 20px;
+  color: #666;
+  font-size: 1em;
+}
+
+.form-columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.column {
+  flex: 1;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  color: black;
+}
+
+.survey-form label {
+  margin-bottom: 5px;
+}
+
+.survey-form input,
+.survey-form select,
+.survey-form textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #7a7c7f;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  color:#448537;
+}
+
+.survey-form input::placeholder,
+.survey-form textarea::placeholder {
+  color: green;
+}
+
+.age-group {
+  margin-bottom: 15px;
+}
+
+.age-group .age-options {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px;
+  border: 1px solid #202124;
+  border-radius: 4px;
+  justify-content: space-between;
+  height:12vh;
+}
+
+.age-options label {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:column;
+  align-items:baseline;
+  width:15%;
+  height: 4.5vh;
+}
+
+.age-options label input {
+  margin-right: 5px;
+}
+
+.radio-group,
+.contest {
+  margin-bottom: 15px;
+  padding: 10px;
+ 
+}
+
+.radio-group label,
+.contest label {
+  display: flex;
+  flex:wrap
+  align-items: flex-start;
+  margin-right: 15px;
+  width:15%;
+  height: 4.5vh;
+}
+
+.radio-group input,
+.contest input {
+  margin-right: 5px;
+}
+
+.survey-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #28a745;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.survey-form button:hover {
+  background-color: #218838;
+}
